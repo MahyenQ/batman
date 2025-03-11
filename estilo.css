@@ -1,0 +1,113 @@
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgba(128, 119, 119, 0.959);
+    text-align: center;
+}
+
+header {
+    background: url('img/header_background.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    max-width: 80%;
+    text-align: left;
+}
+
+/* estilo de las secciones */
+main {
+    padding: 1px 200px;
+    text-align: left;
+    font-size: 119%;
+    align-items: center;
+}
+
+h3 {
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+
+.spoiler {
+    font-size: 2rem;
+    font-family: 'Geo', sans-serif;
+    color: black;
+}
+
+/* Imágenes */
+img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Tabla del reparto */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /*espacio de abajo*/
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+.imi {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 1px 3px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+
+
+
+
