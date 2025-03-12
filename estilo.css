@@ -24,7 +24,7 @@ header h1 {
 
 /* estilo de las secciones */
 main {
-    padding: 1px 200px;
+    padding: 1px 500px;
     text-align: left;
     font-size: 119%;
     align-items: center;
@@ -46,7 +46,7 @@ h2 {
 
 /* Imágenes */
 img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
@@ -87,7 +87,7 @@ footer {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     h2 {
@@ -96,6 +96,10 @@ footer {
 
     h3 {
         font-size: 1.2rem;
+    }
+
+    img {
+        font-size: 100px;
     }
 
     p {
