@@ -16,25 +16,43 @@ header {
     justify-content: center;
 }
 
+.video {
+    width: 500px;
+    height: 300px;
+    align-items: center;
+}
+
 header h1 {
-    font-size: 3.5rem;
-    max-width: 80%;
+    font-size: 4rem;
+    max-width: 50%;
     text-align: left;
 }
 
 /* estilo de las secciones */
 main {
-    padding: 1px 500px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: left;
-    font-size: 119%;
+    font-size: 130%;
     align-items: center;
+    max-width: 50%;
+}
+
+.par {
+    margin-top: 1em;
 }
 
 h3 {
     color: black;
+    margin-top: 1em;
 }
 
 h2 {
+    color: black;
+    margin-top: 1em;
+}
+
+span {
     color: red;
 }
 
@@ -84,10 +102,13 @@ footer {
     font-weight: bold;
 }
 
+
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     main {
-        padding:  50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
     }
 
     header h1 {
@@ -112,6 +133,8 @@ footer {
 
     table {
         width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
     }
 }
 
