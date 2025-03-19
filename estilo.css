@@ -23,11 +23,9 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 400%;
     max-width: 50%;
     text-align: left;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 
 /* estilo de las secciones */
